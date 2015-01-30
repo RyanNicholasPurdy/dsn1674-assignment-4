@@ -2,6 +2,12 @@ html{
   background-color: #dbd6cf;
 }
 
+header{
+  background-color: #79756f;
+  padding: 1.5em 1.5em 1.5em 1.5em;
+  display: block;
+}
+
 body{
   background-color: ;
   padding: -100em 2em 3em 4em;
@@ -72,4 +78,21 @@ figcaption{
   text-align: center;
   margin: .5em .5em .5em .5em;
   color: black;
+}
+
+aside{
+  background-color: #79756f;
+  padding: .5em .5em .5em .5em;
+}
+
+.source{
+  color: white;
+}
+
+a{
+  color: red;
+}
+
+ul{
+  margin: 1em;
 }
