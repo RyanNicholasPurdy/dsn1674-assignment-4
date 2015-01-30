@@ -3,15 +3,15 @@ html{
 }
 
 body{
-  background-color: #79756f;
+  background-color: ;
   padding: -100em 2em 3em 4em;
-  margin: 0 1em;
   /* margin numbers:top/bottom/left/right */
 }
 
 h1{
   text-align: center;
   color: white;
+  font-size: 2.5rem;
 }
 
 nav ul{
@@ -30,12 +30,32 @@ nav{
 
 nav a{
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding: 1em 1em 1em 1em;
+  margin: .2em .2em .2em .2em;
   background-color: #703838;
   color: white;
   text-decoration: none;
+  border-radius: .5em;
 }
 
 a:hover{
   color: black;
+}
+
+h2{
+  text-align: left;
+  color: #79756f;
+}
+
+.name{
+  text-align: right;
+}
+
+h3{
+  text-align: left;
+  color: #79756f;
+}
+
+ol{
+  list-style-type: lower-roman;
 }
