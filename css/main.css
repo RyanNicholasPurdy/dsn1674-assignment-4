@@ -1,0 +1,41 @@
+html{
+  background-color: #dbd6cf;
+}
+
+body{
+  background-color: #79756f;
+  padding: -100em 2em 3em 4em;
+  margin: 0 1em;
+  /* margin numbers:top/bottom/left/right */
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li{
+  display: inline;
+}
+
+nav{
+  text-align: center;
+}
+
+nav a{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #703838;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
